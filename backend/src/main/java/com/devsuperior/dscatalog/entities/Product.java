@@ -36,7 +36,7 @@ public class Product implements Serializable {
     public Product() {
     }
 
-    public Product(Instant date, String imgUrl, Double price, String description, String name, Long id) {
+    public Product(Long id, String name, String description, Double price, String imgUrl,  Instant date) {
         this.date = date;
         this.imgUrl = imgUrl;
         this.price = price;
